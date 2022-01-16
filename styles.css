@@ -1,0 +1,77 @@
+body {
+  overflow-x: hidden;
+}
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+.navbar .nav-item.active {
+  border-left: #ad830a 3px solid;
+}
+.carousel-item {
+  height: 450px;
+}
+.carousel-image-1 {
+  background-image: url("./anastase-maragos-9dzWZQWZMdE-unsplash.jpg");
+  background-size: cover;
+}
+.carousel-image-2 {
+  background-image: url("./humphrey-muleba-dDp-6pXrYik-unsplash.jpg");
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background-image: url("./jelmer-assink-gzeTjGu3b_k-unsplash.jpg");
+  background-size: cover;
+}
+#home-heading {
+  position: relative;
+  min-height: 250px;
+  background: url("./jelmer-assink-gzeTjGu3b_k-unsplash.jpg");
+  background-repeat: no-repeat;
+  text-align: center;
+  color: aliceblue;
+}
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+.info-head {
+  font-size: 30px;
+}
+.info-text {
+  font-size: 15px;
+}
+.info-img {
+  height: 250px;
+}
+#video-play {
+  position: relative;
+  min-height: 250px;
+  background: url("./anastase-maragos-9dzWZQWZMdE-unsplash.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0-300px;
+  text-align: center;
+  color: aliceblue;
+}
+#videoplay a {
+  color: #fff;
+}
+#page-header {
+  height: 200px;
+  background: url("./humphrey-muleba-dDp-6pXrYik-unsplash.jpg");
+  background-attachment: fixed;
+  color: black;
+  border-bottom: 1px #ad830a solid;
+  padding-top: 50px;
+}
+.about-img {
+  margin-top: -50px;
+}
